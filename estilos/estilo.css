@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: #FFD3BA;
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    position: fixed;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.438);
+
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+}
+
+body {
+    background-color: #E6AA85;
+}
