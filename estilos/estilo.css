@@ -27,34 +27,87 @@ header button {
 }
 
 body {
-    margin-top: 100px;
-    background-color: #E6AA85;
-    background-image: url('../imagens/background.jpg');
+    margin-top: 200px;
+    background-color: #FFD3BA;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
-div#container {
-    display: block;
+section#especialidades {
+    background-image: url('../imagens/background.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section#especialidades h1, section#destaques h1 {
+    display: inline-block;
     text-align: center;
-    
+    color: #5A3E36;
+    width: 100%;
+    text-decoration: underline;
+}
+
+section#agendamento {
+    height: 300px;
+}
+
+section#destaques {
+    background-image: url('../imagens/mulher-bonita-deitada-sobre-procedimento-para-rejuvenescimento-da-pele.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div#container {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
 }
 
 .card {
-    margin-top: 100px;
-    margin-bottom: 100px;
     width: 200px;
+    text-align: center;
     height: 300px;
     background-color: #E6AA85;
-    display: inline-block;
     border-radius: 20px;
 }
 
+.card img {
+    margin-top: 5px;
+    width: 95%;
+    height: 75%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card .titulo {
+    
+}
+
+
+
 section {
-    background-color: #9A6C50;
-    height: 100px;
+    background-color: #FFD3BA;
+    height: 300px;
+}
+
+section img {
+    width: 200px;
+    height: 200px;
 }
 
 footer {
