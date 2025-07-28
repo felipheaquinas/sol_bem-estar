@@ -24,12 +24,13 @@ header button {
     padding: 5px;
     background-color: #E6AA85;
     border-radius: 10px;
+    box-shadow: 0px 1px 5px;
     border: none;
 }
 
 body {
     margin-top: 101px;
-    background-color: #fff3ec;
+    background-color: #ffe7d9;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -53,6 +54,7 @@ nav button {
     border: none;
     border-radius: 10px;
     padding: 5px;
+    box-shadow: 0px 1px 5px;
 }
 
 section#especialidades {
@@ -84,21 +86,13 @@ section#agendamento {
     height: 300px;
 }
 
-div#container {
-    display: flex;
-    gap: 50px;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-bottom: 100px;
-}
-
 .card {
     width: 200px;
     text-align: center;
     height: 300px;
     background-color: #E6AA85;
     border-radius: 20px;
+    box-shadow: 0px 1px 5px;
 }
 
 .card img {
