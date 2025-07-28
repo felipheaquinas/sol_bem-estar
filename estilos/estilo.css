@@ -38,7 +38,6 @@ body {
 
 main img {
     width:100%;
-    
 }
 
 nav {
@@ -56,18 +55,25 @@ nav button {
     padding: 5px;
 }
 
-section#especialidades div#container {
+section#especialidades {
     background-image: url('../imagens/background.jpg');
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
+}
+
+div.container {
+    margin-top: 20px;
+    padding-bottom: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
 }
 
-section#especialidades h1 {
-    display: inline-block;
+section h1 {
+    padding-top: 20px;
     text-align: center;
     color: #5A3E36;
     width: 100%;
@@ -80,7 +86,7 @@ section#agendamento {
 
 div#container {
     display: flex;
-    gap: 5px;
+    gap: 50px;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
