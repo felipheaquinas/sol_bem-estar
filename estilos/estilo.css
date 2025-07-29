@@ -21,11 +21,6 @@ header button {
     position: absolute;
     top: 2.5em;
     right: 2em;
-    padding: 5px;
-    background-color: #E6AA85;
-    border-radius: 10px;
-    box-shadow: 0px 1px 5px;
-    border: none;
 }
 
 body {
@@ -49,7 +44,7 @@ nav {
     gap: 20%;
 }
 
-nav button {
+button {
     background-color: #E6AA85;
     border: none;
     border-radius: 10px;
@@ -82,10 +77,6 @@ section h1 {
     text-decoration: underline;
 }
 
-section#agendamento {
-    height: 300px;
-}
-
 .card {
     width: 200px;
     text-align: center;
@@ -101,6 +92,13 @@ section#agendamento {
     height: 75%;
     object-fit: cover;
     border-radius: 10px;
+}
+
+section#agendamento {
+    height: 300px;
+    display: flex;
+    align-content: center;
+    text-align: center;
 }
 
 section#contatos {
