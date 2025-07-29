@@ -7,6 +7,7 @@
     <title>Sol e Bem-Estar</title>
     <link rel="shortcut icon" href="./imagens/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./estilos/estilo.css">
+    <link rel="stylesheet" href="./estilos/carrossel.css">
 </head>
 
 <body>
@@ -17,7 +18,15 @@
         </button>
     </header>
     <main>
-        <img src="./imagens/pexels-cottonbro-7581082.jpg" alt="foto cabeçalho">
+        <div class="carrossel-container">
+            <div class="carrossel" id="carrossel">
+            <img src="./imagens/estetica_facial.jpg" alt="Imagem 1">
+            <img src="./imagens/estetica_corporal.jpg" alt="Imagem 2">
+            </div>
+
+            <button class="botao esquerda" onclick="voltar()">❮</button>
+            <button class="botao direita" onclick="avancar()">❯</button>
+        </div>
 
         <nav id="destaques">
             <button>
@@ -106,6 +115,8 @@
     <footer>
         <p>Criado por FFSSA - © Todos os direitos autorais reservados</p>
     </footer>
+
+    <script src="./javascript/carrossel.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.carrossel-container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carrossel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+   
+}
+
+.carrossel img {
+    width: 100%;
+    flex-shrink: 0;
+}
+
+/* Botões */
+.botao {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.botao.esquerda {
+    left: 10px;
+}
+
+.botao.direita {
+    right: 10px;
+}
