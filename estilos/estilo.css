@@ -15,19 +15,24 @@ header {
     justify-content: center;
     align-items: center;
     gap: 15%;
-    font-size: 12px;
-    
 }
 
-header img {
+header img#logo {
     width: 100px;
     height: 100px;
+    margin-left: 10px;
 }
 
 header h1 {
     text-align: center;
+    font-size: 14px;
 }
 
+img#contato {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
 
 body {
     margin-top: 101px;
@@ -43,11 +48,13 @@ main img {
 }
 
 nav {
+    margin: 10px 0px 10px 0px;
     height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20%;
+    flex-wrap: wrap;
 }
 
 button {
@@ -59,53 +66,66 @@ button {
     align-content: center;
 }
 
-section#especialidades {
-    background-image: url('../imagens/background.jpg');
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-}
-
-div.container {
-    margin-top: 20px;
-    padding-bottom: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
-    flex-wrap: wrap;
-}
-
-section h1 {
-    padding-top: 20px;
+h1 {
     text-align: center;
-    color: #5A3E36;
+    color: black;
     width: 100%;
     text-decoration: underline;
+    margin-bottom: 20px;
 }
 
 .card {
     width: 200px;
-    text-align: center;
-    height: 300px;
-    background-color: #E6AA85;
+    height: 200px;
+    margin: 10px;
+    background-color: #ffe7d9;
     border-radius: 20px;
     box-shadow: 0px 1px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .card img {
-    margin-top: 5px;
     width: 95%;
-    height: 75%;
-    object-fit: cover;
+    height: 95%;
     border-radius: 10px;
 }
 
-section#agendamento {
-    height: 300px;
+section {
+    height: 500px;
     display: flex;
-    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px 10px 0px;
+    padding: 20px;
+    background-color: #5A3E36;
+    gap: 20%;
+}
+
+section h1, p {
     text-align: center;
+}
+
+section#drenagem {
+    background-image: linear-gradient(to top,#D89B84, #C8866C ,#D89B84);
+}
+
+section#limpeza_de_pele {
+    background-image: linear-gradient(to top, #F5DDD1, #EEC9B7 ,#F5DDD1);
+}
+
+section#massagem {
+    background-image: linear-gradient(to top, #A46D4A, #885635 ,#A46D4A);
+}
+
+section#depilação {
+    background-image: linear-gradient(to top, #F5C399, #F0B080 ,#F5C399);
+}
+
+section#design {
+    background-color: #FBB88D;
+    background-image: linear-gradient(to top, #FDCBAA, #FBB88D,#FDCBAA);
 }
 
 section#contatos {

@@ -12,97 +12,89 @@
 
 <body>
     <header>
-        <img src="./imagens/logo.png" alt="logo">
-        <h1>Em desenvolvimento - Inicio: 28/07/2025</h1>
-        <button>
-            Agendar um Horário
-        </button>
+        <img src="./imagens/logo.png" alt="logo" id="logo">
+        <h1>
+            Em desenvolvimento - Inicio: 28/07/2025
+        </h1>
+        <img src="./imagens/social.png" alt="" id="contato">
     </header>
     <main>
         <div class="carrossel-container">
             <div class="carrossel" id="carrossel">
             <img src="./imagens/estetica_facial.jpg" alt="Imagem 1">
-            <img src="./imagens/estetica_corporal.jpg" alt="Imagem 2">
+            <img src="./imagens/estetica_corporal.jpg" alt="Imagem 2"0>
             </div>
 
             <button class="botao esquerda" onclick="voltar()">❮</button>
             <button class="botao direita" onclick="avancar()">❯</button>
         </div>
 
-        <nav id="destaques">
+        <nav>
             <button>
-                Especialidades
+                Drenagem
             </button>
             <button>
-                Promoções
+                Massagem
             </button>
             <button>
-                Localidades
+                Limpeza de Pele
+            </button>
+            <button>
+                Depilação
+            </button>
+            <button>
+                Design
             </button>
         </nav>
 
-        <section id="especialidades">
-            <h1>
-                Especialidades
-            </h1>
-            <div class="container">
-                <div class="card">
-                    <img src="./imagens/78d81d3ef09959708c373e396761234c.jpg" alt="">
-                    <h3 class="titulo">
-                        Drenagens
-                    </h3>
-                    <p class="descricao">
-                        Descrição
-                    </p>
-                </div>
-
-                <div class="card">
-                    <img src="./imagens/78d81d3ef09959708c373e396761234c.jpg" alt="">
-                    <h3 class="titulo">
-                        Massagens
-                    </h3>
-                    <p class="descricao">
-                        Descrição
-                    </p>
-                </div>
-                
-                <div class="card">
-                    <img src="./imagens/78d81d3ef09959708c373e396761234c.jpg" alt="">
-                    <h3 class="titulo">
-                        Limpeza de Pele
-                    </h3>
-                    <p class="descricao">
-                        
-                    </p>
-                </div>
-                
-                <div class="card">
-                    <img src="./imagens/78d81d3ef09959708c373e396761234c.jpg" alt="">
-                    <h3 class="titulo">
-                        Depilação
-                    </h3>
-                    <p class="descricao">
-                        Descrição
-                    </p>
-                </div>
-
-                <div class="card">
-                    <img src="./imagens/78d81d3ef09959708c373e396761234c.jpg" alt="">
-                    <h3 class="titulo">
-                        Design de Sombrancelha
-                    </h3>
-                    <p class="descricao">
-                        Descrição
-                    </p>
-                </div>
+        <section id="drenagem">
+            <div class="card ">
+                <img src="./imagens/78d81d3ef09959708c373e396761234c.jpg" alt="drenagem">
+            </div>
+            <div>
+                <h1>Drenagem</h1>
+                <p>Descrição</p>
             </div>
         </section>
 
-        <section id="agendamento">
-            <img src="./imagens/calendario.png" alt="calendario">
-            <button>
-                Veja seu agendamento
-            </button>
+        <section id="limpeza_de_pele">
+            <div class="card ">
+                <img src="./imagens/78d81d3ef09959708c373e396761234c.jpg" alt="limpeza de pele">
+            </div>
+            <div>
+                <h1>Limpeza de Pele</h1>
+                <p>Descrição</p>
+            </div>
+        </section>
+
+        <section id="massagem">
+            <div>
+                <h1>Massagem</h1>
+                <p>Descrição</p>
+            </div>
+            <div class="card ">
+                <img src="./imagens/78d81d3ef09959708c373e396761234c.jpg" alt="massagem">
+            </div>
+        </section>
+
+        <section id="depilação">
+            <div>
+                <h1>Depilação</h1>
+                <p>Descrição</p>
+            </div>
+            <div class="card ">
+                <img src="./imagens/78d81d3ef09959708c373e396761234c.jpg" alt="depilação">
+            </div>
+        </section>
+
+        <section id="design">
+            <div class="card ">
+                <img src="./imagens/78d81d3ef09959708c373e396761234c.jpg" alt="design">
+            </div>
+            <div>
+                <h1>Design</h1>
+                <p>Descrição</p>
+            </div>
         </section>
 
         <section id="contatos">
@@ -114,7 +106,7 @@
     </main>
 
     <footer>
-        <p>Criado por FFSSA - © Todos os direitos autorais reservados</p>
+        <p>Criado por FFSSA - © Todos os direitos reservados - Sol e Bem-Estar</p>
     </footer>
 
     <script src="./javascript/carrossel.js"></script>
