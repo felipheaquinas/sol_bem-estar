@@ -37,14 +37,6 @@ img#contato {
 body {
     margin-top: 101px;
     background-color: #ffe7d9;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-main img {
-    width:100%;
 }
 
 nav {
@@ -66,18 +58,38 @@ button {
     align-content: center;
 }
 
-h1 {
-    text-align: center;
-    color: black;
-    width: 100%;
-    text-decoration: underline;
-    margin-bottom: 20px;
+.botao {
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.botao.esquerda {
+    left: 10px;
+}
+
+.botao.direita {
+    right: 10px;
+}
+
+section {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px 10px 0px;
+    padding: 20px;
+    background-color: #5A3E36;
+    gap: 10%;
 }
 
 .card {
-    width: 200px;
-    height: 200px;
-    margin: 10px;
+    width: 150px;
+    height: 150px;
     background-color: #ffe7d9;
     border-radius: 20px;
     box-shadow: 0px 1px 5px;
@@ -89,18 +101,7 @@ h1 {
 .card img {
     width: 95%;
     height: 95%;
-    border-radius: 10px;
-}
-
-section {
-    height: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px 0px 10px 0px;
-    padding: 20px;
-    background-color: #5A3E36;
-    gap: 20%;
+    border-radius: 15px;
 }
 
 section h1, p {
@@ -130,16 +131,17 @@ section#design {
 
 section#contatos {
     background-color: #FFD3BA;
-    height: 200px;
+    height: 300px;
 }
 
-section img {
+section#contatos img {
+    background-color: #FFD3BA;
     width: 200px;
     height: 200px;
 }
 
 footer {
     background-color: #5A3E36;
-    height: 20px;
+    height: auto;
     text-align: center;
 }
