@@ -95,8 +95,6 @@ section button {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    left: 15px;
 }
 
 .card img {
@@ -105,14 +103,40 @@ section button {
     border-radius: 15px;
 }
 
-.texto {
-    width: 200px;
+.card_esquerda {
     position: absolute;
-    right: 15px;
+    left: 15px;
 }
 
-section h1, p {
+.card_direita {
+    position: absolute;
+    right: 20px;
+}
+
+.texto {
+    width: 200px;
+}
+
+.texto ul {
+    margin-left: 10px ;
+}
+
+.texto_esquerda {
+    position: absolute;
+    left: 20px;
+}
+
+.texto_direita {
+    position: absolute;
+    right: 20px;
+}
+
+section h1 {
     text-align: center;
+} 
+
+section p {
+    text-align: justify;
 }
 
 section#drenagem {
@@ -137,7 +161,7 @@ section#design {
 
 section#sobre {
     background-color: #FFD3BA;
-    height: 400px;
+    height: 450px;
     padding: 0px 40px;
     margin: 0px;
     display: block;
@@ -152,7 +176,7 @@ section#sobre img {
 }
 
 section#sobre li{
-    margin: 0px 40px;
+    margin: 0px 10px;
 
 }
 
