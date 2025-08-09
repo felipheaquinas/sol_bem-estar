@@ -135,7 +135,7 @@ section#design {
     background-image: linear-gradient(to top, #FDCBAA, #FBB88D,#FDCBAA);
 }
 
-section#contatos {
+section#sobre {
     background-color: #FFD3BA;
     height: 400px;
     padding: 0px 40px;
@@ -143,7 +143,7 @@ section#contatos {
     display: block;
 }
 
-section#contatos img {
+section#sobre img {
     background-color: #FFD3BA;
     width: 200px;
     height: 200px;
@@ -151,7 +151,7 @@ section#contatos img {
     margin: auto;
 }
 
-section#contatos li{
+section#sobre li{
     margin: 0px 40px;
 
 }
