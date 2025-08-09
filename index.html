@@ -14,113 +14,166 @@
     <header>
         <img src="./imagens/logo.png" alt="logo" id="logo">
         <h1>
-            Em desenvolvimento - Inicio: 28/07/2025 - Atualizado: 01/08/2025
+            Em desenvolvimento - Inicio: 28/07/2025 - Atualizado: 08/08/2025
         </h1>
         <img src="./imagens/social.png" alt="" id="contato">
     </header>
-    
+
     <main>
-        <div class="carrossel-container">
-            <div class="carrossel" id="carrossel">
-            <img src="./imagens/estetica_facial.jpg" alt="Imagem 1">
-            <img src="./imagens/estetica_corporal.jpg" alt="Imagem 2"0>
+        <div class="container_carrossel_cabeçalho">
+            <div class="carrossel_cabeçalho" id="carrossel_cabeçalho">
+                <img src="./imagens/estetica_facial.jpg" alt="Imagem 1">
+                <img src="./imagens/estetica_corporal.jpg" alt="Imagem 2" 0>
             </div>
         </div>
 
         <nav>
-            <button>
+            <button id="drenagem">
                 Drenagem
             </button>
-            <button>
-                Massagem
-            </button>
-            <button>
+            <button id="limpeza_de_pele">
                 Limpeza de Pele
             </button>
-            <button>
+            <button id="massagem">
+                Massagem
+            </button>
+            <button id="depilaçao">
                 Depilação
             </button>
-            <button>
+            <button id="design">
                 Design
             </button>
         </nav>
 
         <section id="drenagem">
-            <button class="botao esquerda" onclick="voltar()">❮</button>
-
-            <div class="card">
-                <img src="./imagens/78d81d3ef09959708c373e396761234c.jpg" alt="drenagem">
+            <button class="anterior" onclick="voltar()">❮</button>
+            <div class="carrossel">
+                <div class="carrossel-content">
+                    <div class="slide">
+                        <div class="card">
+                            <img src="./imagens/78d81d3ef09959708c373e396761234c.jpg" alt="drenagem">
+                        </div>
+                        <div id="texto">
+                            <h1>Drenagem</h1>
+                            <p>Descrição</p>
+                        </div>
+                    </div>
+                    <div class="slide">Limpeza 2</div>
+                    <div class="slide">Limpeza 3</div>
+                </div>
             </div>
-            
-            <div id="texto">
-                <h1>Drenagem</h1>
-                <p>Descrição</p>
-            </div>
-            
-            <button class="botao direita" onclick="avancar()">❯</button>
+            <button class="proximo" onclick="avancar()">❯</button>
         </section>
 
         <section id="limpeza_de_pele">
-            <button class="botao esquerda" onclick="voltar()">❮</button>
-
-            <div class="card ">
-                <img src="./imagens/78d81d3ef09959708c373e396761234c.jpg" alt="limpeza de pele">
+            <button class="anterior" onclick="voltar()">❮</button>
+            <div class="carrossel">
+                <div class="carrossel-content">
+                    <div class="slide">
+                        <div class="card">
+                            <img src="./imagens/78d81d3ef09959708c373e396761234c.jpg" alt="drenagem">
+                        </div>
+                        <div id="texto">
+                            <h1>Limpeza de Pele</h1>
+                            <p>Descrição</p>
+                        </div>
+                    </div>
+                    <div class="slide">Limpeza 2</div>
+                    <div class="slide">Limpeza 3</div>
+                </div>
             </div>
-            <div id="texto">
-                <h1>Limpeza de Pele</h1>
-                <p>Descrição</p>
-            </div>
-
-            <button class="botao direita" onclick="avancar()">❯</button>
+            <button class="proximo" onclick="avancar()">❯</button>
         </section>
 
         <section id="massagem">
-            <button class="botao esquerda" onclick="voltar()">❮</button>
+            <button class="anterior" onclick="voltar()">❮</button>
 
-            <div id="texto">
-                <h1>Massagem</h1>
-                <p>Descrição</p>
-            </div>
-            <div class="card ">
-                <img src="./imagens/78d81d3ef09959708c373e396761234c.jpg" alt="massagem">
+            <div class="carrossel">
+
+                <div class="carrossel-content">
+                    <div class="slide">
+                        <div class="card">
+                            <img src="./imagens/78d81d3ef09959708c373e396761234c.jpg" alt="drenagem">
+                        </div>
+
+                        <div id="texto">
+                            <h1>Massagem</h1>
+                            <p>Descrição</p>
+                        </div>
+                    </div>
+                    <div class="slide">Limpeza 2</div>
+                    <div class="slide">Limpeza 3</div>
+                </div>
+
             </div>
 
-            <button class="botao direita" onclick="avancar()">❯</button>
+            <button class="proximo" onclick="avancar()">❯</button>
         </section>
 
-        <section id="depilação">
-            <button class="botao esquerda" onclick="voltar()">❮</button>
+        <section id="depilaçao">
+            <button class="anterior" onclick="voltar()">❮</button>
 
-            <div id="texto">
-                <h1>Depilação</h1>
-                <p>Descrição</p>
-            </div>
-            <div class="card ">
-                <img src="./imagens/78d81d3ef09959708c373e396761234c.jpg" alt="depilação">
+            <div class="carrossel">
+
+                <div class="carrossel-content">
+                    <div class="slide">
+                        <div class="card">
+                            <img src="./imagens/78d81d3ef09959708c373e396761234c.jpg" alt="drenagem">
+                        </div>
+
+                        <div id="texto">
+                            <h1>Depilação</h1>
+                            <p>Descrição</p>
+                        </div>
+                    </div>
+                    <div class="slide">Limpeza 2</div>
+                    <div class="slide">Limpeza 3</div>
+                </div>
+
             </div>
 
-            <button class="botao direita" onclick="avancar()">❯</button>
+            <button class="proximo" onclick="avancar()">❯</button>
         </section>
 
         <section id="design">
-            <button class="botao esquerda" onclick="voltar()">❮</button>
+            <button class="anterior" onclick="voltar()">❮</button>
 
-            <div class="card ">
-                <img src="./imagens/78d81d3ef09959708c373e396761234c.jpg" alt="design">
-            </div>
-            <div id="texto">
-                <h1>Design</h1>
-                <p>Descrição</p>
+            <div class="carrossel">
+
+                <div class="carrossel-content">
+                    <div class="slide">
+                        <div class="card">
+                            <img src="./imagens/78d81d3ef09959708c373e396761234c.jpg" alt="drenagem">
+                        </div>
+
+                        <div id="texto">
+                            <h1>Design de Sonbrancelha</h1>
+                            <p>Descrição</p>
+                        </div>
+                    </div>
+                    <div class="slide">Limpeza 2</div>
+                    <div class="slide">Limpeza 3</div>
+                </div>
+
             </div>
 
-            <button class="botao direita" onclick="avancar()">❯</button>
+            <button class="proximo" onclick="avancar()">❯</button>
         </section>
 
         <section id="contatos">
             <img src="./imagens/logo.png" alt="logo">
-            <p>
-                Contatos:
-            </p>
+            <div class="texto">
+                <ul>
+                    <li>
+                        <h1>Sobre a empresa:</h1>
+                        <p>A Sol e Bem-Estar é uma empresa de pequeno porte especializada em levar autoestima e bem-estar a mulheres de todas as diversidades. Atuando como prestadora de serviços estéticos, atendendo na Zona Norte de São Paulo  — oferecendo praticidade, cuidado e qualidade em cada atendimento.</p>
+                    </li>
+                    <li>
+                        <h1>Estamos no endereço:</h1>
+                        <p>-</p>
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
 
@@ -129,6 +182,7 @@
     </footer>
 
     <script src="./javascript/carrossel.js"></script>
+    <script src="./javascript/menu.js"></script>
 </body>
 
 </html>

@@ -40,7 +40,7 @@ body {
 }
 
 nav {
-    margin: 10px 0px 10px 0px;
+    margin: 40px 0px 10px 0px;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -49,7 +49,7 @@ nav {
     flex-wrap: wrap;
 }
 
-button {
+nav button {
     background-color: #E6AA85;
     border: none;
     border-radius: 10px;
@@ -58,33 +58,35 @@ button {
     align-content: center;
 }
 
-.botao {
-    position: absolute;
-    background: rgba(0,0,0,0.5);
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    font-size: 20px;
-}
-
-.botao.esquerda {
-    left: 10px;
-}
-
-.botao.direita {
-    right: 10px;
-}
-
 section {
     height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 10px 0px 10px 0px;
+    margin: 40px 0px 40px 0px;
     padding: 20px;
-    background-color: #5A3E36;
     gap: 10%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.659);
+}
+
+section button {
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.anterior {
+    left: 10px;
+}
+
+.proximo {
+    right: 10px;
 }
 
 .card {
@@ -120,28 +122,33 @@ section#massagem {
     background-image: linear-gradient(to top, #A46D4A, #885635 ,#A46D4A);
 }
 
-section#depilação {
+section#depilaçao {
     background-image: linear-gradient(to top, #F5C399, #F0B080 ,#F5C399);
 }
 
 section#design {
-    background-color: #FBB88D;
     background-image: linear-gradient(to top, #FDCBAA, #FBB88D,#FDCBAA);
 }
 
 section#contatos {
     background-color: #FFD3BA;
     height: 300px;
+    margin: 0px;
+}
+section#contatos h1 {
+    text-align: left;
 }
 
 section#contatos img {
     background-color: #FFD3BA;
     width: 200px;
     height: 200px;
+    
 }
 
 footer {
     background-color: #5A3E36;
     height: auto;
     text-align: center;
+    
 }
