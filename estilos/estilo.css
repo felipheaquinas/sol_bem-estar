@@ -96,7 +96,7 @@ section button {
     align-items: center;
     justify-content: center;
     position: absolute;
-    left: 20px;
+    left: 15px;
 }
 
 .card img {
@@ -106,8 +106,9 @@ section button {
 }
 
 .texto {
+    width: 200px;
     position: absolute;
-    right: 20px;
+    right: 15px;
 }
 
 section h1, p {
