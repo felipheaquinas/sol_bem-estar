@@ -9,26 +9,26 @@ let depilaçao = window.document.getElementById('depilaçao');
 let design = window.document.getElementById('design');
 
 drenagem.addEventListener("click", function() {
-    document.body.scrollTop = 773
-    document.documentElement.scrollTop = 773
+    document.body.scrollTop = 1015
+    document.documentElement.scrollTop = 1015
 });
 
 limpeza_de_pele.addEventListener("click", function() {
-    document.body.scrollTop = 1315
-    document.documentElement.scrollTop = 1315
+    document.body.scrollTop = 1605
+    document.documentElement.scrollTop = 1605
 });
 
 massagem.addEventListener("click", function() {
-    document.body.scrollTop = 1850
-    document.documentElement.scrollTop = 1850
+    document.body.scrollTop = 2142
+    document.documentElement.scrollTop = 2142
 });
 
 depilaçao.addEventListener("click", function() {
-    document.body.scrollTop = 2394
-    document.documentElement.scrollTop = 2394
+    document.body.scrollTop = 2679
+    document.documentElement.scrollTop = 2679
 });
 
 design.addEventListener("click", function() {
-    document.body.scrollTop = 2933
-    document.documentElement.scrollTop = 2933
+    document.body.scrollTop = 3220
+    document.documentElement.scrollTop = 3220
 });

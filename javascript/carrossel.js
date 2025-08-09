@@ -18,7 +18,6 @@ function voltar() {
 
 setInterval(avancar, 5000);
 
-
 const secoes = document.querySelectorAll('section');
 
 secoes.forEach(secao => {
