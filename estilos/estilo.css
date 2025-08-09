@@ -134,21 +134,25 @@ section#contatos {
     background-color: #FFD3BA;
     height: 300px;
     margin: 0px;
+    padding: 0px;
+    gap: 5%;
 }
-section#contatos h1 {
+section#contatos h3 {
     text-align: left;
+}
+
+section#contatos p {
+    font-size: 16px; 
 }
 
 section#contatos img {
     background-color: #FFD3BA;
     width: 200px;
     height: 200px;
-    
 }
 
 footer {
     background-color: #5A3E36;
     height: auto;
-    text-align: center;
-    
+    text-align: center;   
 }
