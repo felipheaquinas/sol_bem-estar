@@ -9,8 +9,8 @@ let depilaçao = window.document.getElementById('depilaçao');
 let design = window.document.getElementById('design');
 
 drenagem.addEventListener("click", function() {
-    document.body.scrollTop = 1015
-    document.documentElement.scrollTop = 1015
+    document.body.scrollTop = 810
+    document.documentElement.scrollTop = 810
 });
 
 limpeza_de_pele.addEventListener("click", function() {
