@@ -24,10 +24,9 @@
 .carrossel {
   position: relative;
   width: 100%;
-  max-width: 95%;
+  max-width: 100%;
   margin: 0 auto;
   overflow: hidden;
-  border-radius: 10px;
   height: 100%;
 }
 

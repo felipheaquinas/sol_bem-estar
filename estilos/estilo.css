@@ -62,7 +62,6 @@ section {
     align-items: center;
     justify-content: center;
     margin: 40px 0px 40px 0px;
-    padding: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.659);
 }
 
@@ -87,30 +86,35 @@ section button {
 }
 
 .card {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     background-color: #ffe7d9;
-    border-radius: 20px;
     box-shadow: 0px 1px 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-.card img {
-    width: 95%;
-    height: 95%;
-    border-radius: 15px;
-}
-
-.card_esquerda {
+.card_esquerda_cima {
     position: absolute;
-    left: 15px;
+    left: 0px;
+    top: 0px;
+
 }
 
-.card_direita {
+.card_esquerda_baixo {
     position: absolute;
-    right: 20px;
+    left: 0px;
+    bottom: 0px;
+}
+
+.card_direita_cima {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.card_direita_baixo {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
 }
 
 .texto {
@@ -121,14 +125,28 @@ section button {
     margin-left: 10px ;
 }
 
-.texto_esquerda {
+.texto_esquerda_cima {
     position: absolute;
-    left: 20px;
+    left: 40px;
+    top: 60px;
 }
 
-.texto_direita {
+.texto_direita_cima {
     position: absolute;
-    right: 20px;
+    right: 40px;
+    top: 60px;
+}
+
+.texto_esquerda_baixo {
+    position: absolute;
+    left: 40px;
+    bottom: 60px;
+}
+
+.texto_direita_baixo {
+    position: absolute;
+    right: 40px;
+    bottom: 60px;
 }
 
 section h1 {
@@ -142,21 +160,41 @@ section p {
 section#drenagem {
     background-image: linear-gradient(to top,#D89B84, #C8866C ,#D89B84);
 }
+.drenagem {
+    background-image: url('../imagens/78d81d3ef09959708c373e396761234c.jpg');
+    background-position: center center;
+}
 
-section#limpeza_de_pele {
+#limpeza_de_pele {
     background-image: linear-gradient(to top, #F5DDD1, #EEC9B7 ,#F5DDD1);
+}
+.limpeza_de_pele {
+    background-image: url('../imagens/78d81d3ef09959708c373e396761234c.jpg');
+    background-position: center center;
 }
 
 section#massagem {
     background-image: linear-gradient(to top, #A46D4A, #885635 ,#A46D4A);
 }
+.massagem {
+    background-image: url('../imagens/78d81d3ef09959708c373e396761234c.jpg');
+    background-position: center center;
+}
 
 section#depilaçao {
     background-image: linear-gradient(to top, #F5C399, #F0B080 ,#F5C399);
 }
+.depilaçao {
+    background-image: url('../imagens/78d81d3ef09959708c373e396761234c.jpg');
+    background-position: center center;
+}
 
 section#design {
     background-image: linear-gradient(to top, #FDCBAA, #FBB88D,#FDCBAA);
+}
+.design{
+    background-image: url('../imagens/78d81d3ef09959708c373e396761234c.jpg');
+    background-position: center center;
 }
 
 section#sobre {
