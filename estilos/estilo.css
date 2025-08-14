@@ -91,8 +91,8 @@ section button:disabled {
 }
 
 .card {
-    width: 55%;
-    height: 45%;
+    width: 50%;
+    height: 40%;
     background-color: #ffe7d9;
     box-shadow: 0px 1px 5px;
     background-repeat: no-repeat;
@@ -124,7 +124,7 @@ section button:disabled {
 }
 
 .texto {
-    width: 35%;
+    width: 45%;
 }
 
 .texto ul {
@@ -133,26 +133,26 @@ section button:disabled {
 
 .texto_esquerda_cima {
     position: absolute;
-    left: 35px;
-    top: 70px;
+    left: 10px;
+    top: 50px;
 }
 
 .texto_direita_cima {
     position: absolute;
-    right: 30px;
+    right: 10px;
     top: 50px;
 }
 
 .texto_esquerda_baixo {
     position: absolute;
-    left: 40px;
-    bottom: 40px;
+    left: 15px;
+    bottom: 20px;
 }
 
 .texto_direita_baixo {
     position: absolute;
-    right: 35px;
-    bottom: 40px;
+    right: 5px;
+    bottom: 20px;
 }
 
 section h1 {
