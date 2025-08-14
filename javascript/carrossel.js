@@ -29,11 +29,11 @@ secoes.forEach(secao => {
     let indice = 0;
 
     function atualizarCarrossel() {
-    const largura = cards[0].offsetWidth;
-    container.style.transform = `translateX(-${indice * largura}px)`;
+        const largura = cards[0].offsetWidth;
+        container.style.transform = `translateX(-${indice * largura}px)`;
 
-    btnAnt.disabled = indice === 0;
-    btnProx.disabled = indice === cards.length - 1;
+        btnAnt.disabled = indice === 0;
+        btnProx.disabled = indice === cards.length - 1;
     }
 
     btnAnt.addEventListener('click', () => {

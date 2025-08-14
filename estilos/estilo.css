@@ -77,6 +77,11 @@ section button {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
+section button:disabled {
+      background-color: #999;
+      cursor: not-allowed;
+    }
+
 .anterior {
     left: 10px;
 }
@@ -127,26 +132,26 @@ section button {
 
 .texto_esquerda_cima {
     position: absolute;
-    left: 40px;
-    top: 60px;
+    left: 30px;
+    top: 40px;
 }
 
 .texto_direita_cima {
     position: absolute;
-    right: 40px;
-    top: 60px;
+    right: 30px;
+    top: 40px;
 }
 
 .texto_esquerda_baixo {
     position: absolute;
-    left: 40px;
-    bottom: 60px;
+    left: 50px;
+    bottom: 40px;
 }
 
 .texto_direita_baixo {
     position: absolute;
-    right: 40px;
-    bottom: 60px;
+    right: 50px;
+    bottom: 40px;
 }
 
 section h1 {
