@@ -78,9 +78,9 @@ section button {
 }
 
 section button:disabled {
-      background-color: #999;
-      cursor: not-allowed;
-    }
+    background-color: #999;
+    cursor: not-allowed;
+}
 
 .anterior {
     left: 10px;
@@ -91,17 +91,18 @@ section button:disabled {
 }
 
 .card {
-    width: 200px;
-    height: 200px;
+    width: 55%;
+    height: 45%;
     background-color: #ffe7d9;
     box-shadow: 0px 1px 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .card_esquerda_cima {
     position: absolute;
     left: 0px;
     top: 0px;
-
 }
 
 .card_esquerda_baixo {
@@ -123,7 +124,7 @@ section button:disabled {
 }
 
 .texto {
-    width: 200px;
+    width: 35%;
 }
 
 .texto ul {
@@ -132,25 +133,25 @@ section button:disabled {
 
 .texto_esquerda_cima {
     position: absolute;
-    left: 30px;
-    top: 40px;
+    left: 35px;
+    top: 70px;
 }
 
 .texto_direita_cima {
     position: absolute;
     right: 30px;
-    top: 40px;
+    top: 50px;
 }
 
 .texto_esquerda_baixo {
     position: absolute;
-    left: 50px;
+    left: 40px;
     bottom: 40px;
 }
 
 .texto_direita_baixo {
     position: absolute;
-    right: 50px;
+    right: 35px;
     bottom: 40px;
 }
 
@@ -173,6 +174,7 @@ section#drenagem {
 
 section#limpeza_de_pele {
     background-image: linear-gradient(to top, #F5DDD1, #EEC9B7 ,#F5DDD1);
+    background-position: center center;
 }
 
 .imagem_limpeza_de_pele {
