@@ -157,6 +157,7 @@ section button:disabled {
 
 section h1 {
     text-align: center;
+    
 } 
 
 section p {
@@ -168,7 +169,7 @@ section#drenagem {
 }
 
 .imagem_drenagem {
-    background-image: url('../imagens/78d81d3ef09959708c373e396761234c.jpg');
+    background-image: url('../imagens/drenagem.jpeg');
     background-position: center center;
 }
 
@@ -178,7 +179,7 @@ section#limpeza_de_pele {
 }
 
 .imagem_limpeza_de_pele {
-    background-image: url('../imagens/78d81d3ef09959708c373e396761234c.jpg');
+    background-image: url('../imagens/limpeza_de_pele.jpeg');
     background-position: center center;
 }
 
@@ -187,7 +188,7 @@ section#massagem {
 }
 
 .imagem_massagem {
-    background-image: url('../imagens/78d81d3ef09959708c373e396761234c.jpg');
+    background-image: url('../imagens/massagem.jpeg');
     background-position: center center;
 }
 
@@ -195,7 +196,7 @@ section#depilaçao {
     background-image: linear-gradient(to top, #F5C399, #F0B080 ,#F5C399);
 }
 .imagem_depilaçao {
-    background-image: url('../imagens/78d81d3ef09959708c373e396761234c.jpg');
+    background-image: url('../imagens/depilação.jpeg');
     background-position: center center;
 }
 
@@ -203,7 +204,7 @@ section#design {
     background-image: linear-gradient(to top, #FDCBAA, #FBB88D,#FDCBAA);
 }
 .imagem_design{
-    background-image: url('../imagens/78d81d3ef09959708c373e396761234c.jpg');
+    background-image: url('../imagens/designer.jpeg');
     background-position: center center;
 }
 
