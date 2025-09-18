@@ -13,14 +13,14 @@
 <body>
     <header>
         <img src="./imagens/logo.png" alt="logo" id="logo">
-        <img src="./imagens/social.png" alt="" id="contato">
+        <a href="https://wa.me/5511954391217" target="_blank"><img src="./imagens/social.png" alt="" id="contato"></a>
     </header>
 
     <main>
         <div class="container_carrossel_cabeçalho">
             <div class="carrossel_cabeçalho" id="carrossel_cabeçalho">
                 <img src="./imagens/estetica_facial.jpg" alt="Imagem 1">
-                <img src="./imagens/estetica_corporal.jpg" alt="Imagem 2" 0>
+                <img src="./imagens/estetica_corporal.jpg" alt="Imagem 2">
             </div>
         </div>
 
@@ -34,8 +34,8 @@
             <button id="massagem">
                 Massagem
             </button>
-            <button id="depilaçao">
-                Depilação
+            <button id="ventosaterapia">
+                Ventosaterapia
             </button>
             <button id="design">
                 Design de Sombrancelha
@@ -77,19 +77,11 @@
                             </ul>
                         </div>
 
-                        <div class="card card_direita_baixo imagem_drenagem">                            
+                        <div class="card card_direita_baixo imagem_drenagem">          
                         </div>
                     </div>
-                    <div class="slide">Limpeza 2</div>
-                    <div class="slide">Limpeza 3</div>
                 </div>
             </div>
-            <button class="proximo" onclick="avancar()">
-                ❯
-            </button>
-            <button class="anterior" onclick="voltar()">
-                ❮
-            </button>
         </section>
 
         <section id="limpeza_de_pele">
@@ -128,19 +120,10 @@
                                     <strong>Melhora a textura:</strong> Deixa a pele mais saudável e hidratada.
                                 </li>
                             </ul>
-                        </div>
-                        
+                        </div> 
                     </div>
-                    <div class="slide">Limpeza 2</div>
-                    <div class="slide">Limpeza 3</div>
                 </div>
             </div>
-            <button class="proximo" onclick="avancar()">
-                ❯
-            </button>
-            <button class="anterior" onclick="voltar()">
-                ❮
-            </button>
         </section>
 
         <section id="massagem">
@@ -178,28 +161,20 @@
                         </div>
                         <div class="card card_direita_baixo imagem_massagem"></div>
                     </div>
-                    <div class="slide">Limpeza 2</div>
-                    <div class="slide">Limpeza 3</div>
                 </div>
             </div>
-            <button class="proximo" onclick="avancar()">
-                ❯
-            </button>
-            <button class="anterior" onclick="voltar()">
-                ❮
-            </button>
         </section>
 
-        <section id="depilaçao">
+        <section id="ventosaterapia">
             <div class="carrossel">
                 <div class="carrossel-content">
                     <div class="slide">
                         <div class="texto texto_esquerda_cima">
                             <h1>
-                                Depilação:
+                                Ventosaterapia:
                             </h1>
                             <p>
-                                Por hábito, é feito em certas regiões corporais que, por motivos estéticos, sociais ou higiénicos, se pretendem manter sem pelo.
+                                Ventosaterapia é um tipo de tratamento alternativo no qual são usadas ventosas que criam um vácuo na pele, para melhorar a circulação sanguínea em um local do corpo.
                             </p>
                         </div>
 
@@ -211,34 +186,29 @@
 
                         <div class="texto texto_direita_baixo">
                             <h1>
-                                Beneficios:
+                                Benefícios:
                             </h1>
                             <ul>
                                 <li>
-                                    <strong>Pele mais lisa:</strong> Toque suave e delicado, diferente da lâmina.
+                                    <strong>Aumento da circulação sanguínea:</strong> Melhora o fluxo local e nutrição dos tecidos.
                                 </li>
                                 <li>
-                                    <strong>Remoção pela raiz:</strong> Enfraquece folículos e prolonga o intervalo entre depilações.
+                                    <strong>Eliminação de contraturas musculares:</strong> Reduz pontos de tensão e pontos gatilho.
                                 </li>
                                 <li>
-                                    <strong>Previne irritações:</strong> Evita inflamações causadas pelo atrito dos pelos.
+                                    <strong>Fortalece os vasos sanguíneos:</strong> Contribui para a saúde vascular.
                                 </li>
                                 <li>
-                                    <strong>Melhora a autoestima:</strong> Sensação de pele bem cuidada aumenta a confiança.
+                                    <strong>Aumento do líquido sinovial:</strong> Estimula a produção dentro das articulações.
+                                </li>
+                                <li>
+                                    <strong>Diminuição da retenção de líquidos:</strong> Principalmente em braços, pernas e pés.
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <div class="slide">Limpeza 2</div>
-                    <div class="slide">Limpeza 3</div>
                 </div>
-            </div>
-            <button class="proximo" onclick="avancar()">
-                ❯
-            </button>
-            <button class="anterior" onclick="voltar()">
-                ❮
-            </button>
+            </div>    
         </section>
 
         <section id="design">
@@ -275,18 +245,9 @@
                             </ul>
                         </div>
                         <div class="card card_direita_baixo imagem_design"></div>
-
                     </div>
-                    <div class="slide">Limpeza 2</div>
-                    <div class="slide">Limpeza 3</div>
                 </div>
             </div>
-            <button class="proximo" onclick="avancar()">
-                ❯
-            </button>
-            <button class="anterior" onclick="voltar()">
-                ❮
-            </button>
         </section>
 
         <section id="sobre">
@@ -320,8 +281,8 @@
         </p>
     </footer>
 
-    <script src="./javascript/carrossel.js"></script>
+    <script src="./javascript/carrossel_cabeçalho.js"></script>
+    <script src="./javascript/carrossel_selecao.js"></script>
     <script src="./javascript/menu.js"></script>
 </body>
-
 </html>

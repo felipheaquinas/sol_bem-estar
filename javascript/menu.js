@@ -4,7 +4,7 @@ let limpeza_de_pele = window.document.getElementById('limpeza_de_pele');
 
 let massagem = window.document.getElementById('massagem');
 
-let depilaçao = window.document.getElementById('depilaçao');
+let ventosaterapia = window.document.getElementById('ventosaterapia');
 
 let design = window.document.getElementById('design');
 
@@ -23,7 +23,7 @@ massagem.addEventListener("click", function() {
     document.documentElement.scrollTop = 2142
 });
 
-depilaçao.addEventListener("click", function() {
+ventosaterapia.addEventListener("click", function() {
     document.body.scrollTop = 2679
     document.documentElement.scrollTop = 2679
 });
