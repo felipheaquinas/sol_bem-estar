@@ -86,8 +86,8 @@ section button:disabled {
 }
 
 .card {
-    width: 50%;
-    height: 40%;
+    width: 45%;
+    height: 35%;
     background-color: #ffe7d9;
     box-shadow: 0px 1px 5px;
     background-repeat: no-repeat;
@@ -128,25 +128,25 @@ section button:disabled {
 
 .texto_esquerda_cima {
     position: absolute;
-    left: 10px;
+    left: 20px;
     top: 50px;
 }
 
 .texto_direita_cima {
     position: absolute;
-    right: 10px;
+    right: 20px;
     top: 50px;
 }
 
 .texto_esquerda_baixo {
     position: absolute;
-    left: 15px;
+    left: 20px;
     bottom: 20px;
 }
 
 .texto_direita_baixo {
     position: absolute;
-    right: 5px;
+    right: 15px;
     bottom: 20px;
 }
 
