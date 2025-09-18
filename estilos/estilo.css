@@ -86,8 +86,8 @@ section button:disabled {
 }
 
 .card {
-    width: 48%;
-    height: 38%;
+    width: 46%;
+    height: 36%;
     background-color: #ffe7d9;
     box-shadow: 0px 1px 5px;
     background-repeat: no-repeat;
@@ -152,7 +152,6 @@ section button:disabled {
 
 section h1 {
     text-align: center;
-    
 } 
 
 section p {
@@ -225,7 +224,7 @@ section#sobre li{
 
 footer {
     background-color: #5A3E36;
-    height: 35px;
+    height: 45px;
     text-align: center;   
     align-content: center;
 }
