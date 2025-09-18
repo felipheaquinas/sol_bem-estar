@@ -128,19 +128,19 @@ section button:disabled {
 
 .texto_esquerda_cima {
     position: absolute;
-    left: 15px;
+    left: 13px;
     top: 50px;
 }
 
 .texto_direita_cima {
     position: absolute;
-    right: 13px;
+    right: 11px;
     top: 50px;
 }
 
 .texto_esquerda_baixo {
     position: absolute;
-    left: 13px;
+    left: 11px;
     bottom: 20px;
 }
 
