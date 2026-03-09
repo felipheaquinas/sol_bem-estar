@@ -1,34 +1,28 @@
-let drenagem = window.document.getElementById('drenagem');
-
-let limpeza_de_pele = window.document.getElementById('limpeza_de_pele');
-
-let massagem = window.document.getElementById('massagem');
-
-let ventosaterapia = window.document.getElementById('ventosaterapia');
-
-let design = window.document.getElementById('design');
+let drenagem = document.getElementById('botao_drenagem');
+let limpeza_de_pele = document.getElementById('botao_limpeza_de_pele');
+let massagem = document.getElementById('botao_massagem');
+let ventosaterapia = document.getElementById('botao_ventosaterapia');
 
 drenagem.addEventListener("click", function() {
-    document.body.scrollTop =  750
-    document.documentElement.scrollTop = 750
+    document.getElementById("drenagem").scrollIntoView({
+        behavior: "smooth"
+    });
 });
 
 limpeza_de_pele.addEventListener("click", function() {
-    document.body.scrollTop = 1605
-    document.documentElement.scrollTop = 1605
+    document.getElementById("limpeza_de_pele").scrollIntoView({
+        behavior: "smooth"
+    });
 });
 
 massagem.addEventListener("click", function() {
-    document.body.scrollTop = 2142
-    document.documentElement.scrollTop = 2142
+    document.getElementById("massagem").scrollIntoView({
+        behavior: "smooth"
+    });
 });
 
 ventosaterapia.addEventListener("click", function() {
-    document.body.scrollTop = 2679
-    document.documentElement.scrollTop = 2679
-});
-
-design.addEventListener("click", function() {
-    document.body.scrollTop = 3220
-    document.documentElement.scrollTop = 3220
+    document.getElementById("ventosaterapia").scrollIntoView({
+        behavior: "smooth"
+    });
 });
