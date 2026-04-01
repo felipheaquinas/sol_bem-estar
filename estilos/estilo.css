@@ -7,7 +7,7 @@
 }
 
 body {
-    margin-top: 101px;
+    margin-top: 51px;
     background-color: #fff4ee;
     font-family: "Cormorant Garamond", serif;
     font-optical-sizing: auto;
@@ -17,7 +17,7 @@ body {
 
 header {
     background-color: #ffede5;
-    height: 100px;
+    height: 60px;
     width: 100%;
     position: fixed;
     top: 0px;
@@ -29,8 +29,8 @@ header {
 }
 
 header img#logo {
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     margin-left: 10px;
     position: absolute;
     left: 0px;
@@ -42,8 +42,8 @@ header a {
 }
 
 img#contato {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     margin-right: 15px;
 }
 
@@ -66,10 +66,18 @@ nav button {
     padding: 5px;
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.425);
     align-content: center;
+    transition: 0.3s;
+}
+
+nav button:active {
+    cursor: pointer;
+    background-color: #d69268;
+    transform: scale(1.05);
+
 }
 
 section {
-    height: 650px;
+    height: 630px;
     margin: 20px 20px 20px 20px;
     scroll-margin-top: 105px;
     display: flex;
@@ -87,8 +95,9 @@ section h3 {
     margin-top: 10px;
 }
 
-section > div > p {
+section > p {
     text-align: justify;
+    text-indent: 10px;
     margin-left: 5px;
     margin-right: 5px;
 }
@@ -101,17 +110,34 @@ section div.foto {
     background-size: cover;
 }
 
-section div.container > p.minutos {
-    text-align: center;
+section > div.tempo_preço {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    padding-bottom: 4px;
+    background-color: rgba(0, 0, 0, 0.137);
 }
 
-section div.container > ul {
+section > div.tempo_preço > div {
+    width: 50%;
+    display: inline-block;
+}
+
+section > div.tempo_preço > div > h3,
+section > div.tempo_preço > div > p {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+section > ul {
     margin-left: 20px;
     margin-right: 20px;
 }
 
-section div.container > ul >li {
-    text-align: center;
+section > ul > li {
+    text-align: justify;
 }
 
 section#drenagem {
@@ -148,7 +174,7 @@ div#container_ventosaterapia {
     width: 100%;
     height: 250px;
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 div#foto_ventosaterapia_1, div#foto_ventosaterapia_2 {
@@ -175,7 +201,7 @@ section#sobre {
     box-shadow: 0px 2px 3px;
 }
 
-section#sobre > div > h3 {
+section#sobre > h3 {
     text-align: left;
     margin-left: 10px;
 }
@@ -193,7 +219,7 @@ section#sobre p, iframe{
     text-indent: 10px;
 }
 
-section#sobre > div > iframe {
+section#sobre > iframe {
     width: 100%;
     height: 350px;
 }
@@ -214,8 +240,8 @@ section#sobre div#container_midias_sociais a{
 }
 
 section#sobre div#container_midias_sociais > a > div{
-    width: 50%;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background-size: cover;
     border-radius: 50px;
     margin: auto;
