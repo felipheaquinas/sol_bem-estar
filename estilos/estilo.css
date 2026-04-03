@@ -3,7 +3,12 @@
 * {
     margin: 0px;
     padding: 0px;
-    
+    font-size: 1em;
+}
+
+html, body, main{
+    height: auto;
+    width: 100%;
 }
 
 body {
@@ -11,14 +16,14 @@ body {
     background-color: #fff4ee;
     font-family: "Cormorant Garamond", serif;
     font-optical-sizing: auto;
-    font-weight: weight;
+    font-weight: normal;
     font-style: normal;
 }
 
 header {
     background-color: #ffede5;
     height: 60px;
-    width: 100%;
+    width: 100vw;
     position: fixed;
     top: 0px;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.438);
@@ -29,8 +34,8 @@ header {
 }
 
 header img#logo {
-    width: 60px;
-    height: 60px;
+    width: 4em;
+    height: 4em;
     margin-left: 10px;
     position: absolute;
     left: 0px;
@@ -42,24 +47,24 @@ header a {
 }
 
 img#contato {
-    width: 60px;
-    height: 60px;
+    width: 4em;
+    height: 4em;
     margin-right: 15px;
 }
 
 nav {
-    margin: 40px 0px 40px 0px;
-    height: 250px;
+    margin: 30px 0px 30px 0px;
+    height: 13em;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10%;
+    gap: 8%;
     flex-wrap: wrap;
 }
 
 nav button {
-    width: 200px;
+    width: 60vw;
     background-color: #E6AA85;
     border: none;
     border-radius: 10px;
@@ -73,12 +78,17 @@ nav button:active {
     cursor: pointer;
     background-color: #d69268;
     transform: scale(1.05);
+}
 
+nav > button > p {
+    color: rgba(255, 255, 255, 0.822);
+    font-size: 0.8em;
 }
 
 section {
-    height: 630px;
-    margin: 20px 20px 20px 20px;
+    height: 70vh;
+    padding: 5px 0px 5px 0px;
+    margin: 20px 30px 20px 30px;
     scroll-margin-top: 105px;
     display: flex;
     flex-direction: column;
@@ -87,12 +97,15 @@ section {
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.425);
 }
 
-section h1, h3{
+section > h1{
+    font-size: 1.7em;
     text-align: center;
+    text-decoration: underline rgba(0, 0, 0, 0.411);
 }
 
 section h3 {
     margin-top: 10px;
+    text-align: center;
 }
 
 section > p {
@@ -104,7 +117,7 @@ section > p {
 
 section div.foto {
     width: 100%;
-    height: 250px;
+    height: 13em;
     margin-top: 10px;
     background-position: center center;
     background-size: cover;
@@ -146,7 +159,6 @@ section#drenagem {
 
 div#foto_drenagem {
     background-image: url(../imagens/drenagem.jpeg);
-
 }
 
 section#limpeza_de_pele {
@@ -172,7 +184,7 @@ section#ventosaterapia {
 
 div#container_ventosaterapia {
     width: 100%;
-    height: 250px;
+    height: 13em;
     display: flex;
     margin-bottom: 10px;
 }
@@ -207,8 +219,8 @@ section#sobre > h3 {
 }
 
 section#sobre img {
-    width: 200px;
-    height: 200px;
+    width: 10em;
+    height: 10em;
     display: block;
     margin: auto;
 }
@@ -221,7 +233,7 @@ section#sobre p, iframe{
 
 section#sobre > iframe {
     width: 100%;
-    height: 350px;
+    height: 40vh;
 }
 
 section#sobre div#container_midias_sociais{
@@ -270,4 +282,5 @@ footer {
     height: 45px;
     text-align: center;   
     align-content: center;
+    color: rgba(255, 255, 255, 0.616);
 }
