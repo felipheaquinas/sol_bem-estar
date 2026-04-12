@@ -13,6 +13,10 @@
         max-width: 350px;
     }
 
+    .carrossel_cabeçalho img {
+        height: 100vh;
+    }
+
     section {
         width: 50vw;
         height: 90vh;
